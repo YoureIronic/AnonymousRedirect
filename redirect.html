@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Anonymous redirect</title>
+    <title>Anonymous Redirect</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
 
     <!-- http://caniuse.com/#feat=referrer-policy -->
     <meta name="referrer" content="no-referrer" />
@@ -108,7 +109,7 @@
 
         <footer>
             The point of this page is to hide the source page from the target website to prevent all kinds of tracking.
-            <a href="https://github.com/AdguardTeam/AnonymousRedirect" class="link" target="_blank">Source code</a>.
+            <a href="https://github.com/YoureIronic/AnonymousRedirect" class="link" target="_blank">Source code</a>.
         </footer>
     </div>
 
@@ -161,7 +162,7 @@
         var url = getParameterByName('url');
         var host = getHostname(document.referrer);
 
-        if (host === 'adguard.com' || host.endsWith('.adguard.com')) {
+        if (host === 'trace.rip' || host.endsWith('.trace.rip')) {
             performRedirect();
         }
 
