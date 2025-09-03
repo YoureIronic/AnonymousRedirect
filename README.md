@@ -8,9 +8,9 @@ Please note, that Referrer-Policy [is not supported](caniuse.com/#feat=referrer-
 ## Usage
 
 ```
-https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=[PUT URL HERE]
+https://redirect.trace.rip/?url=[PUT URL HERE]
 ```
 
 ## Examples
 
-https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=https://whatsmyreferer.com/
+https://redirect.trace.rip/?url=https://whatsmyreferer.com/
