@@ -162,10 +162,6 @@
         var url = getParameterByName('url');
         var host = getHostname(document.referrer);
 
-        if (host === 'trace.rip' || host.endsWith('.trace.rip')) {
-            performRedirect();
-        }
-
         var currentUrl = document.getElementById('currentUrl');
 
         if (currentUrl) {
